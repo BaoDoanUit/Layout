@@ -1,0 +1,338 @@
+/**
+* border radius
+*/
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto'
+}
+
+.btn .jumbotron {
+    border-radius: 0px !important;
+}
+
+
+/**
+* jumbotron animation
+*/
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-image: url(./contents/images/Banner/sl-1.jpg);
+    }
+    50% {
+        background-image: url(./contents/images/Banner/sl-1.jpg);
+    }
+    100% {
+        background-image: url(./contents/images/Banner/sl-1.jpg);
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-image: url(./contents/images/Banner/sl-1.jpg);
+    }
+    50% {
+        background-image: url(./contents/images/Banner/sl-1.jpg);
+    }
+    100% {
+        background-image: url(./contents/images/Banner/sl-1.jpg);
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* BEGIN HEADER */
+
+
+/* 
+.nav {
+    background: #03034A !important;
+    height: 4rem;
+} */
+
+.logo-header {
+    position: relative;
+    max-height: 4rem !important;
+}
+
+.menu-bar {
+    display: flex;
+}
+
+.p-menu {
+    color: white !important;
+    /* font-family: "utm-facebook"; */
+    font-weight: 600;
+    text-transform: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+
+.p-title {
+    margin-left: 1.2rem;
+    color: #294462;
+    /* font-family: "UTM Facebook"; */
+    font-size: 1.2rem;
+    line-height: 41px;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    color: #0076de;
+    border-color: #03034A;
+    border-radius: 1rem;
+    min-width: 9rem;
+    max-height: 3rem;
+}
+
+.btn-outline-primary:hover {
+    background-color: transparent;
+    border-color: white;
+}
+
+
+/* END HEADER */
+
+
+/**  BODY */
+
+
+/* TITLE */
+
+.background-title {
+    width: 100%;
+    height: rem;
+    background: #fafafa;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+}
+
+
+/*LAYOUT*/
+
+.job-list {
+    position: relative;
+    min-height: 85rem;
+}
+
+.apply-form {
+    height: 20vh;
+}
+
+.job-advise {
+    position: relative;
+    min-height: 26rem;
+}
+
+.job-vision {
+    position: relative;
+    min-height: 16rem;
+}
+
+
+/*END LAYOUT*/
+
+
+/*DETAIL CARD*/
+
+.card-special {
+    height: 10rem !important;
+}
+
+.card-img-vision {
+    height: 8rem;
+}
+
+.card {
+    max-width: 22rem;
+}
+
+
+/*END DETAIL*/
+
+
+/** END BODY */
+
+
+/** Add FONT */
+
+
+/** LOCAL */
+
+
+/*BOX TIM VIEC*/
+
+.text-banner {
+    /* padding-top: 12rem; */
+    color: #ffffff;
+    /* font-family: "UTM Facebook"; */
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    position: relative;
+    text-align: center;
+}
+
+.find-job-title {
+    padding-top: 0.4rem;
+    color: #ffffff;
+    font-family: "UTM Facebook";
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    flex: 1;
+}
+
+.centered-div {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-find {
+    margin-top: 1.2rem;
+    width: 94%;
+    height: 2.5rem;
+    border: solid 0.1rem #ffffff !important;
+    border-radius: 0.3rem;
+    background: white;
+    margin-left: 1.4rem;
+    margin-right: 1rem;
+    font-size: 1rem !important;
+    font-weight: bold;
+    color: #08168a !important;
+}
+
+.find-job-location {
+    font-size: 0.7rem;
+}
+
+.support-banner-text {
+    padding-top: 2rem;
+    margin-left: 3rem;
+}
+
+.option-icon {
+    margin-left: 1.3rem;
+    margin-top: 0.2rem;
+    padding-top: -1rem;
+}
+
+.span-support {
+    display: inline;
+    margin-right: 1.2rem;
+}
+
+.block {
+    display: block;
+    position: relative;
+}
+
+.card-img-top {
+    filter: saturate(50%);
+}
+
+.img-job-advise {
+    height: 8rem;
+    width: 100%;
+}
+
+.card-job-advise {
+    height: 8rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.apply-form {
+    height: 28rem;
+}
+
+.apply-form-input {
+    margin-top: 1.5rem;
+    background: white;
+    border: 0px solid #0076de;
+    height: 22rem;
+}
+
+.card-job-vision {
+    margin-top: 1rem;
+    height: 8rem;
+}
+
+.card-text-advise {
+    position: relative;
+    display: block;
+    margin-top: 0.7rem;
+}
+
+.support-banner {
+    height: 20rem;
+}
+
+.support-banner-form {
+    background-color: white;
+    margin-top: 1.5rem;
+    background: white;
+    border: 0px solid #0076de;
+    height: 12rem;
+}
+
+.card-title {
+    position: relative;
+    margin-top: -1.9rem;
+    margin-left: 0.6rem;
+}
+
+.btn-View {
+    color: #1b4598;
+    border-color: #03034A;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.btn-Apply:hover {
+    color: #03034A;
+    border-color: #03034A;
+    width: 100%;
+}
+
+.btn-View:hover {
+    color: #03034A;
+    border-color: #03034A;
+    width: 100%;
+}
+
+.btn-view-more {
+    margin-right: 0.2rem;
+    margin-top: 6.5rem;
+}
+
+.grid-text {
+    position: relative;
+    margin: 5px 0;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    max-height: 5.5rem;
+}

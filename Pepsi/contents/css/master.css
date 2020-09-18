@@ -1,0 +1,227 @@
+/* TEXT */
+
+.text {
+    /* font-family: "utm-facebook"; */
+    font-weight: 200;
+    text-transform: none;
+}
+
+.font-weight-1 {
+    font-weight: 300;
+}
+
+.text-size-1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.text-size-2 {
+    font-size: .9rem;
+}
+
+
+/*END TEXT*/
+
+
+/*COLOR*/
+
+.blue-1 {
+    color: rgba(54, 79, 115, 0.67);
+}
+
+.white {
+    color: white !important;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: #0076de;
+}
+
+
+/*END COLOR*/
+
+.f-right {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.border-color-blue {
+    border-color: #0076de;
+    opacity: 80%;
+}
+
+.form-group {
+    max-width: 90% !important;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 30rem;
+    color: #fff;
+    background-size: cover;
+    background-image: url(../images/Banner/sl-1.jpg);
+    border-radius: 0px !important;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background-size: 110% 100%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite; */
+}
+
+.select-apply-form {
+    border: 1px solid #0076de !important;
+}
+
+.btn-Apply {
+    border-color: #03034A !important;
+}
+
+.box-find-job {
+    height: 24rem;
+}
+
+.find-job-box {
+    width: 390px;
+    height: 20rem;
+    border: solid 0.1rem #ffffff;
+    background: rgba(35, 79, 150, 0.75);
+    border-radius: 2rem;
+}
+
+.input-find-job {
+    height: 2.5rem;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: auto;
+    margin-left: -1px;
+    line-height: 3rem;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    width: 4rem;
+    margin: auto;
+    padding-left: 1.6rem;
+}
+
+
+}
+@font-face {
+    font-family: "utm-facebook";
+    src: url("/contents/font/UTMFacebook.ttf") format("woff"), url("/contents/font/UTMFacebook.ttf") format("opentype"), url("/contents/font/UTMFacebook.ttf") format("truetype");
+}
+@media only screen and (min-width: 360px) {
+    .background-title {
+        width: 330px !important;
+    }
+    
+    .apply-form-input {
+        width: 330px;
+    }
+    
+    .card {
+        max-width: 330px !important;
+    }
+    
+    .support-banner-form {
+        max-width: 330px !important;
+    }
+    
+    .f-right {
+        float: initial !important;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .background-title {
+        width: 350px !important;
+    }
+    
+    .apply-form-input {
+        width: 350px;
+    }
+    
+    .card {
+        max-width: 350px !important;
+    }
+    
+    .support-banner-form {
+        max-width: 350px !important;
+    }
+    
+    .card-job-list {
+        max-width: 350px !important;
+    }
+    
+    .find-job-box {
+        width: 350px !important;
+    }
+    
+    .f-right {
+        float: initial !important;
+    }
+}
+@media only screen and (min-width: 414px) {
+    .background-title {
+        width: 390px !important;
+    }
+    
+    .apply-form-input {
+        width: 390px;
+    }
+    
+    .card {
+        max-width: 390px !important;
+    }
+    
+    .support-banner-form {
+        max-width: 390px !important;
+    }
+    
+    .card-job-list {
+        max-width: 390px !important;
+    }
+    
+    .find-job-box {
+        width: 390px !important;
+    }
+    
+    .f-right {
+        float: initial !important;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .background-title {
+        width: 100% !important;
+    }
+    
+    .apply-form-input {
+        width: 100%
+    }
+    
+    .card {
+        max-width: 100%
+    }
+    
+    .support-banner-form {
+        max-width: 100%;
+    }
+    
+    .card-job-list {
+        max-width: 100% !important;
+    }
+    
+    .find-job-box {
+        width: 390px;
+    }
+    
+    .f-right {
+        float: right !important;
+    }
+}
